@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const request = require("request");
 const cheerio = require("cheerio");
-const allMatchObj = require("./allMatch");
+const allMatchObj = require("./allMatches");
 request(url, cb);
 
 function cb(err, res, body) {
